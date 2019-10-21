@@ -1,3 +1,5 @@
+import sys
+sys.path.append(".")
 from __future__ import absolute_import
 # Copyright (c) 2015, Disney Research
 # All rights reserved.
