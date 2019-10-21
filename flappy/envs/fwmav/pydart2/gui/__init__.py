@@ -6,8 +6,8 @@ sys.path.append(".")
 #
 # Author(s): Sehoon Ha <sehoon.ha@disneyresearch.com>
 # Disney Research Robotics Group
-import pydart2.gui
-assert(pydart2.gui.opengl)
+from pydart2.gui import opengl
+assert(opengl)
 
 try:
     from pydart2.gui import glut
