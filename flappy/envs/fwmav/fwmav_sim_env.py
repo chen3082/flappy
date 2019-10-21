@@ -8,7 +8,6 @@ import gym
 from gym.spaces import Box
 import numpy as np
 import json
-import pydart2 as pydart
 
 from flappy.envs.fwmav.simulation import Simulation
 from flappy.envs.fwmav.mission import Mission
