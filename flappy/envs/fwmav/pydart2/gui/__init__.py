@@ -4,8 +4,8 @@ from __future__ import absolute_import
 #
 # Author(s): Sehoon Ha <sehoon.ha@disneyresearch.com>
 # Disney Research Robotics Group
-import gui
-assert(gui.opengl)
+import pydart2.gui
+assert(pydart2.gui.opengl)
 
 try:
     from pydart2.gui import glut
