@@ -149,7 +149,6 @@ python test_simple.py --model_type=ARC
 ##### Docker
 
 in ubuntu16.04
-sudo docker build -t first .
 ```zsh
 To build the image: sudo docker build -t first .
 To run the image: sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
