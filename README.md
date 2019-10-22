@@ -146,7 +146,11 @@ To develop a new control policy, the policy should try to generate sinusoidal si
 python test_simple.py --model_type=PID
 python test_simple.py --model_type=ARC
 ```
-
+##### Docker
+```zsh
+in ubuntu16.04
+To build the image: sudo docker build -t first .
+To run the image: sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
 
 ## Contributor
 Fan Fei, Ruoyu Wu, Jian Zhang
