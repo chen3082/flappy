@@ -147,11 +147,13 @@ python test_simple.py --model_type=PID
 python test_simple.py --model_type=ARC
 ```
 ##### Docker
-```zsh
+
 in ubuntu16.04
+sudo docker build -t first .
+```zsh
 To build the image: sudo docker build -t first .
 To run the image: sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
-
+```
 ## Contributor
 Fan Fei, Ruoyu Wu, Jian Zhang
 
