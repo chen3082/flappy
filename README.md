@@ -65,16 +65,17 @@ source /path/to/venv/bin/activate
 
 ### Installation
 - Pydart2 is a python binding to DART. 
-  
-    ```zsh
-    Since install pydart2 is way to complicated, we move the source code inro our project. 
-    However, you still need all the dependency.(Please refer to pydart2 document.)
+
+  [Pydart2 document] (https://pydart2.readthedocs.io/en/latest/install.html) .
+ 
+  Since install pydart2 is way to complicated, we move the source code inro our project. 
+  However, you still need all the dependency.(Please refer to pydart2 document.)
     
-    We still provided the option with install pydart2.
-    Please refer to this document how to install pydart2.
-    https://docs.google.com/document/d/1ePNJz5doYTVeDrGQMqlDE4xAh21omrZQ1bu84MNTb4U/edit?usp=sharing
-    ```
-    Please refer to [document](https://pydart2.readthedocs.io/en/latest/install.html) when you have problems.
+  We still provided the option with install pydart2.
+  Please refer to this document how to install pydart2.
+  https://docs.google.com/document/d/1ePNJz5doYTVeDrGQMqlDE4xAh21omrZQ1bu84MNTb4U/edit?usp=sharing
+    
+   
 
 - [Tensorflow](https://github.com/tensorflow/tensorflow) is needed for the usage of neural network. If you want to make use of your GPU, please install the tensorflow with gpu
 
