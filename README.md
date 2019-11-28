@@ -24,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Flappy requires python3 with the development headers. You'll also need some other system packages. DART is required as simulation engine (and we use pydart2 as interface). They can be installed as follows
+Flappy requires python3.5 with the development headers. You'll also need some other system packages. DART is required as simulation engine (and we use pydart2 as interface). They can be installed as follows
 
 #### Ubuntu
 
@@ -65,9 +65,14 @@ source /path/to/venv/bin/activate
 
 ### Installation
 - Pydart2 is a python binding to DART. 
-
+  
     ```zsh
-    pip install pydart2
+    Since install pydart2 is way to complicated, we move the source code inro our project. 
+    However, you still need all the dependency.(Please refer to pydart2 document.)
+    
+    We still provided the option with install pydart2.
+    Please refer to this document how to install pydart2.
+    https://docs.google.com/document/d/1ePNJz5doYTVeDrGQMqlDE4xAh21omrZQ1bu84MNTb4U/edit?usp=sharing
     ```
     Please refer to [document](https://pydart2.readthedocs.io/en/latest/install.html) when you have problems.
 
@@ -127,6 +132,7 @@ We choose to use stable baselines instead of baselines as our RL library. Note t
 ###### Training
 ```zsh
 python train.py --model_type=PPO2 --model_path=ppo2_mlp --policy_type=MlpPolicy --n_cpu=12 --time_step=100000
+python train_maneuver_DDPG.py --model_path=DDPG_mlp --time_step=100000
 ```
 
 ###### Testing with trained model
@@ -154,7 +160,7 @@ To build the image: sudo docker build -t first .
 To run the image: sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
 ```
 ## Contributor
-Fan Fei, Yuan-Cheng Chen, Yenlei Yan, Tarcan Gul, Ruoyu Wu, Jian Zhang
+Fan Fei, Ruoyu Wu, Jian Zhang, Yenlei Yan, Yuan-Cheng Chen, Tarcan Gul,
 
 ## License
 MIT
