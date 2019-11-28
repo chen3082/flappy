@@ -20,7 +20,11 @@ To cite this work in publications:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
+We provide three environment options.
+1. Pydart2 source code included in our project.(So you don't need to install it.)
+2. Pydart2 source code not included in our project.(You need to install it, which is painful.)
+3. Docker
 
 ### Prerequisites
 
