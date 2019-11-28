@@ -68,7 +68,7 @@ source /path/to/venv/bin/activate
 
   [Pydart2 document] (https://pydart2.readthedocs.io/en/latest/install.html) .
  
-  Since install pydart2 is way to complicated, we move the source code inro our project. 
+  Since install pydart2 is way too complicated, we move the source code inro our project. 
   However, you still need all the dependency.(Please refer to pydart2 document.)
     
   We still provided the option with install pydart2.
