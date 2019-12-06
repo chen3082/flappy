@@ -56,11 +56,15 @@ brew install dartsim
 
 ### Alternative installation methods
 1.	Pydart2 source code included in our project. (No installation required)
-	https://github.com/purdue-biorobotics/flappy
+	* Please continue your steps here
 2.	Pydart2 source code not included in our project. (Installation required, which is painful.)
-	Please continue your steps here
+	```zsh
+	https://github.com/purdue-biorobotics/flappy
+	```
 3.	Docker (If you do not have access to recommanded OS environment)
+	```zsh
 	https://github.com/chen3082/docker
+	```
 
 
 ### Virtual environment
