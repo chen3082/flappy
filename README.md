@@ -178,7 +178,7 @@ To build the image: sudo docker build -t first .
 To run the image: sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
 ```
 ## Contributor
-Fan Fei, Ruoyu Wu, Jian Zhang, Yenlei Yan, Yuan-Cheng Chen, Tarcan Gul,
+Fan Fei, Ruoyu Wu, Jian Zhang, Yunlei Yan, Yuan-Cheng Chen, Tarcan Gul,
 
 ## License
 MIT
